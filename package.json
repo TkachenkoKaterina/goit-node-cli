@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "Creation of console app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TkachenkoKaterina/goit-node-cli.git"
+  },
+  "keywords": [],
+  "author": "Tkachenko Kateryna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TkachenkoKaterina/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/TkachenkoKaterina/goit-node-cli#readme",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

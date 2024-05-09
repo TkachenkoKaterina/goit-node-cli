@@ -5,13 +5,13 @@ import {
   getContactById,
   removeContact,
   addContact,
-} from "./contacts/contacts.js";
+} from "./contacts.js";
 
 const invokeAction = async ({ action, id, ...data }) => {
   switch (action) {
     case "list":
       const allContacts = await listContacts();
-      return console.log(allContacts);
+      return console.table(allContacts);
     case "get":
       const contactById = await getContactById(id);
       return console.log(contactById);
